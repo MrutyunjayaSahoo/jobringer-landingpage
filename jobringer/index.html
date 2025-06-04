@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobringer - Find Your Perfect Job</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <img class="logo" src="https://www.jobringer.com/images/logonew.svg" alt="">
+                <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <nav id="nav-menu">
+                    <ul>
+                        <li><a href="https://www.jobringer.com/jobs">Jobs</a></li>
+                        <li><a href="https://www.jobringer.com/active-employers">Active Employers</a></li>
+                        <li><a href="https://www.jobringer.com/blogs">Job Blogs</a></li>
+                        <li><a href="https://jobringer.com/#">Pricing</a></li>
+                        <li><a href="https://www.jobringer.com/jobseeker/login" class="jobseeker-login">Jobseeker
+                                Login</a></li>
+                        <li><a href="https://www.jobringer.com/employer/login" class="employer-login">Employer Login</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Employer Section -->
+    <section class="employer-section">
+        <div class="container">
+            <div class="employer-content">
+                <h1>EMPLOYERS</h1>
+                <div class="employer-text">
+                    <strong>WELCOME OFFER - FREE JOB Postings and Much More.</strong>
+                </div>
+                <div class="employer-buttons">
+                    <a href="https://www.jobringer.com/employer/login?signup" class="btn btn-primary">Register for
+                        FREE</a>
+                    <a href="https://www.jobringer.com/employer/post-a-job" class="btn btn-secondary">Post A Job</a>
+                    <a href="https://jobringer.com/contact-us" class="sales-link">Sales Enquiry</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>BRINGING YOU THE PERFECT JOB !</h1>
+            <p>11,000+ JOBS to Apply</p>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-container">
+                <div class="search-bar">
+                    <input type="text" class="search-input" placeholder="Search Jobs Now">
+                    <div class="search-buttons">
+                        <button class="btn btn-primary">Search</button>
+
+                        <button class="btn btn-secondary">
+                            <a href="https://www.jobringer.com/jobs" target="_blank" rel="noopener noreferrer">View
+                                Jobs</a>
+                        </button>
+                        <button class="btn btn-secondary btn-search-register">
+                            <a href="https://www.jobringer.com/jobseeker/registration?signup" target="_blank"
+                                rel="noopener noreferrer">Register For FREE</a>
+                        </button>
+
+
+                    </div>
+                </div>
+                <div class="quick-search">
+                    <h3>Quick Job Search <i class="fas fa-search"></i></h3>
+                    <div class="job-tags">
+                        <a href="https://www.jobringer.com/jobs-for-fresher" target="_blank"
+                            rel="noopener noreferrer"><span class="job-tag">#Fresher</span></a>
+                        <a href="https://www.jobringer.com/jobs-for-WFH" target="_blank" rel="noopener noreferrer"><span
+                                class="job-tag">#Work From Home</span></a>
+                        <a href="https://www.jobringer.com/jobs-for-WFH" target="_blank" rel="noopener noreferrer"><span
+                                class="job-tag">#WFH</span></a>
+                        <a href="https://www.jobringer.com/jobs-in-information-technology" target="_blank"
+                            rel="noopener noreferrer"><span class="job-tag">#IT</span></a>
+                        <a href="https://www.jobringer.com/jobs-in-Human-Resources" target="_blank"
+                            rel="noopener noreferrer"><span class="job-tag">#HR</span></a>
+                        <a href="https://www.jobringer.com/jobs-for-back-office" target="_blank"
+                            rel="noopener noreferrer"><span class="job-tag">#Back Office</span></a>
+                        <a href="https://www.jobringer.com/jobs-for-BPO" target="_blank" rel="noopener noreferrer"><span
+                                class="job-tag">#BPO Jobs</span></a>
+                        <a href="https://www.jobringer.com/jobs-in-ITES" target="_blank" rel="noopener noreferrer"><span
+                                class="job-tag">#ITES</span></a>
+                        <a href="https://www.jobringer.com/jobs-in-finance" target="_blank"
+                            rel="noopener noreferrer"><span class="job-tag">#Finance</span></a>
+                        <a href="https://www.jobringer.com/jobs-in-accounts" target="_blank"
+                            rel="noopener noreferrer"><span class="job-tag">#Accounts</span></a>
+                        <a href="https://www.jobringer.com/jobs-in-medical" target="_blank"
+                            rel="noopener noreferrer"><span class="job-tag">#Medical</span></a>
+                        <a href="https://www.jobringer.com/jobs-in-pharma" target="_blank"
+                            rel="noopener noreferrer"><span class="job-tag">#Pharma</span></a>
+                        <a href="https://www.jobringer.com/jobs-for-manager" target="_blank"
+                            rel="noopener noreferrer"><span class="job-tag">#Manager</span></a>
+                        <a href="https://www.jobringer.com/jobs-for-developer" target="_blank"
+                            rel="noopener noreferrer"><span class="job-tag">#Developer</span></a>
+                        <a href="https://www.jobringer.com/jobs-for-Marketing" target="_blank"
+                            rel="noopener noreferrer"><span class="job-tag">#Marketing</span></a>
+                        <a href="https://www.jobringer.com/jobs-in-Engineering" target="_blank"
+                            rel="noopener noreferrer"><span class="job-tag">#Engineering</span></a>
+                        <a href="https://www.jobringer.com/jobs" target="_blank" rel="noopener noreferrer"><span
+                                class="job-tag">#Non Government Jobs</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Jobs - Swiper -->
+    <section class="featured-jobs">
+        <div class="container">
+            <h2 class="section-title">Featured Jobs</h2>
+            <div class="swiper job-swiper">
+                <div class="swiper-wrapper">
+                    <!-- Job Card 1 -->
+                    <div class="swiper-slide">
+                        <div class="job-card">
+                            <div class="job-type-badge">In Office job</div>
+                            <h3 class="job-title">Human Resources HR</h3>
+                            <p class="company-name">Transparent Capital</p>
+                            <div class="job-details">
+                                <span class="job-detail"><i class="fas fa-eye"></i> 8 Views</span>
+                                <span class="job-detail"><i class="fas fa-clock"></i> Full Time - Permanent</span>
+                                <span class="job-detail"><i class="fas fa-user"></i> 1 - 3 Years</span>
+                                <span class="job-detail"><i class="fas fa-map-marker-alt"></i> Thane | Navi Mumbai /
+                                    Panvel | Mumbai / India</span>
+                            </div>
+                            <button class="apply-btn">Apply <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Job Card 2 -->
+                    <div class="swiper-slide">
+                        <div class="job-card">
+                            <div class="job-type-badge">Remote job</div>
+                            <h3 class="job-title">Social Media Marketing Executive</h3>
+                            <p class="company-name">Brandshark</p>
+                            <div class="job-details">
+                                <span class="job-detail"><i class="fas fa-clock"></i> Full Time - Permanent</span>
+                                <span class="job-detail"><i class="fas fa-user"></i> 1 - 4 Years</span>
+                                <span class="job-detail"><i class="fas fa-map-marker-alt"></i> Bengaluru / Bangalore /
+                                    India</span>
+                            </div>
+                            <button class="apply-btn">Apply <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Job Card 3 -->
+                    <div class="swiper-slide">
+                        <div class="job-card">
+                            <div class="job-type-badge">In Office job</div>
+                            <h3 class="job-title">Director of Nutrition Services</h3>
+                            <p class="company-name">Opaa- Food Management</p>
+                            <div class="job-details">
+                                <span class="job-detail"><i class="fas fa-clock"></i> Full Time - Permanent</span>
+                                <span class="job-detail"><i class="fas fa-user"></i> 3 - 5 Years</span>
+                                <span class="job-detail"><i class="fas fa-map-marker-alt"></i> USA, United States of
+                                    America</span>
+                            </div>
+                            <button class="apply-btn">Apply <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Job Card 4 -->
+                    <div class="swiper-slide">
+                        <div class="job-card">
+                            <div class="job-type-badge">In Office job</div>
+                            <h3 class="job-title">Senior Executive Recruiter</h3>
+                            <p class="company-name">Freyr Solutions</p>
+                            <div class="job-details">
+                                <span class="job-detail"><i class="fas fa-clock"></i> Full Time - Permanent</span>
+                                <span class="job-detail"><i class="fas fa-user"></i> 5 - 6 Years</span>
+                                <span class="job-detail"><i class="fas fa-map-marker-alt"></i> Hyderabad - Secunderabad
+                                    / India</span>
+                            </div>
+                            <button class="apply-btn">Apply <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Job Card 5 -->
+                    <div class="swiper-slide">
+                        <div class="job-card">
+                            <div class="job-type-badge">Hybrid job</div>
+                            <h3 class="job-title">Frontend Developer</h3>
+                            <p class="company-name">Tech Solutions</p>
+                            <div class="job-details">
+                                <span class="job-detail"><i class="fas fa-eye"></i> 15 Views</span>
+                                <span class="job-detail"><i class="fas fa-clock"></i> Full Time - Permanent</span>
+                                <span class="job-detail"><i class="fas fa-user"></i> 2 - 4 Years</span>
+                                <span class="job-detail"><i class="fas fa-map-marker-alt"></i> Bangalore / India</span>
+                            </div>
+                            <button class="apply-btn">Apply <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Job Card 6 -->
+                    <div class="swiper-slide">
+                        <div class="job-card">
+                            <div class="job-type-badge">Remote job</div>
+                            <h3 class="job-title">Digital Marketing Manager</h3>
+                            <p class="company-name">Creative Agency</p>
+                            <div class="job-details">
+                                <span class="job-detail"><i class="fas fa-eye"></i> 22 Views</span>
+                                <span class="job-detail"><i class="fas fa-clock"></i> Full Time - Permanent</span>
+                                <span class="job-detail"><i class="fas fa-user"></i> 3 - 6 Years</span>
+                                <span class="job-detail"><i class="fas fa-map-marker-alt"></i> Mumbai / India</span>
+                            </div>
+                            <button class="apply-btn">Apply <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Navigation -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Employers -->
+    <section class="featured-employers">
+        <div class="container">
+            <h2 class="section-title">FEATURED <span style="color: #666;">EMPLOYERS</span></h2>
+            <div class="employers-container">
+                <div class="employers-slider">
+                    <!-- First set of logos -->
+                    <div class="employer-logo">
+                        <img src="https://jobringer.com/images/content/company-logo/hjp4b464cf423d93d6efb1ee4cd20997360.png"
+                            alt="TSI">
+                    </div>
+                    <div class="employer-logo">
+                        <img src="https://jobringer.com/images/content/company-logo/hjp11bcfcf193d8967c0293020e25b129a4.png"
+                            alt="Company Logo">
+                    </div>
+                    <div class="employer-logo">
+                        <img src="https://jobringer.com/images/content/company-logo/hjp58ed6bf767e09b2b07fb9632316851fb.png"
+                            alt="Akrati">
+                    </div>
+                    <div class="employer-logo">
+                        <img src="https://jobringer.com/images/content/company-logo/hjp06b1d1f5754aa608d474ed7377096af2.png"
+                            alt="Company Logo">
+                    </div>
+                    <div class="employer-logo">
+                        <img src="https://jobringer.com/images/content/company-logo/hjp092b5a9bc02ef2a5542c3d7c666b1adc.png"
+                            alt="Company Logo">
+                    </div>
+                    <div class="employer-logo">
+                        <img src="https://jobringer.com/images/content/company-logo/hjpe921b5cd01f558fa0dff9df6cffe6d27.png"
+                            alt="Company Logo">
+                    </div>
+                    <div class="employer-logo">
+                        <img src="https://jobringer.com/images/content/company-logo/hjp11e6e3219c4d1b74c89976040b163d4c.png"
+                            alt="Colladome">
+                    </div>
+                    <div class="employer-logo">
+                        <img src="https://jobringer.com/images/content/company-logo/hjp9734d85f1102d4cbde6fc92c30396a20.png"
+                            alt="Company Logo">
+                    </div>
+
+                    <!-- Duplicate set for infinite scroll -->
+                    <div class="employer-logo">
+                        <img src="https://jobringer.com/images/content/company-logo/hjp6ca16d3d1f69ee5ceb56ce7922d0a95b.png"
+                            alt="TSI">
+                    </div>
+                    <div class="employer-logo">
+                        <img src="https://jobringer.com/images/content/company-logo/hjp5421d65121e86c5d356dca065da81a46.png"
+                            alt="Company Logo">
+                    </div>
+                    <div class="employer-logo">
+                        <img src="https://jobringer.com/images/content/company-logo/hjpe63c04ad0b687e9d0a7f08456a56f93f.png"
+                            alt="Akrati">
+                    </div>
+                    <div class="employer-logo">
+                        <img src="https://jobringer.com/images/content/company-logo/hjp05cdc12c0c5c095c7a336cc15f8ea0f0.png"
+                            alt="Company Logo">
+                    </div>
+                    <div class="employer-logo">
+                        <img src="https://jobringer.com/images/content/company-logo/hjpe1e760ab7dc0c27d9b2b83a233f6508f.png"
+                            alt="Company Logo">
+                    </div>
+                    <div class="employer-logo">
+                        <img src="https://jobringer.com/images/content/company-logo/hjp2ba548fb7aadcf1f206a7ba7ffe40842.png"
+                            alt="Company Logo">
+                    </div>
+                    <div class="employer-logo">
+                        <img src="https://jobringer.com/images/content/company-logo/hjp25eeb267d3419a7d3f890961c3fd99fe.png"
+                            alt="Colladome">
+                    </div>
+                    <div class="employer-logo">
+                        <img src="https://jobringer.com/images/content/company-logo/hjpa97dbe68c1ba4be6c40ca591095ca38e.png"
+                            alt="Company Logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile App Section -->
+    <section class="mobile-app">
+        <div class="container">
+            <div class="app-content">
+                <div class="app-text">
+                    <h2>APPLY TO JOBS ON-THE-GO</h2>
+                    <p><a href="https://play.google.com/store/apps/details?id=com.jobringer.app">Jobringer Mobile
+                            App</a>
+                    </p>
+                    <div class="app-buttons">
+                        <a href="https://play.google.com/store/apps/details?id=com.jobringer.app" class="app-btn">
+                            <img src="https://www.jobringer.com/images/anroid.png" alt="">
+
+                        </a>
+                        <a href="#" class="app-btn">
+                            <img src="https://www.jobringer.com/images/ios.png" alt="">
+
+                        </a>
+                    </div>
+                    <h3 class="mobile-app-text">Mobile App <span>Download</span></h3>
+                </div>
+                <div class="app-image">
+                    <img src="https://www.jobringer.com/images/plays-storeimg.jpg" alt="Mobile App Screenshot">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Footer Section -->
+    <section class="job-footer-section">
+        <div class="container">
+            <!-- Jobs Location Columns -->
+            <div class="job-locations">
+                <div class="job-location-column">
+                    <h2>JOBS IN INDIA</h2>
+                    <div class="jobs-tags">
+                        <a href="https://jobringer.com/jobs-in-mumbai" class="job-location-link">#Mumbai</a>
+                        <a href="https://jobringer.com/jobs-in-Delhi" class="job-location-link">#Delhi</a>
+                        <a href="https://jobringer.com/jobs-in-Ajmer" class="job-location-link">#Ajmer</a>
+                        <a href="https://jobringer.com/jobs-in-Pune" class="job-location-link">#Pune</a>
+                        <a href="https://jobringer.com/jobs-in-Hyderabad" class="job-location-link">#Hyderabad</a>
+                        <a href="https://jobringer.com/jobs-in-Agra" class="job-location-link">#Agra</a>
+                        <a href="https://jobringer.com/jobs-in-Chennai" class="job-location-link">#Chennai</a>
+                        <a href="https://jobringer.com/jobs-in-Kolkata" class="job-location-link">#Kolkata</a>
+                        <a href="https://jobringer.com/jobs-in-Indore" class="job-location-link">#Indore</a>
+                        <a href="https://jobringer.com/jobs-in-Gurugram" class="job-location-link">#Gurugram</a>
+                        <a href="https://jobringer.com/jobs-in-Jaipur" class="job-location-link">#Jaipur</a>
+                        <a href="https://jobringer.com/jobs-in-Ahmedabad" class="job-location-link">#Ahmedabad</a>
+                    </div>
+                </div>
+                <div class="job-location-column">
+                    <h2>INTERNATIONAL JOBS</h2>
+                    <div class="jobs-tags">
+                        <a href="https://jobringer.com/jobs-in-Africa" class="job-location-link">#Africa</a>
+                        <a href="https://jobringer.com/jobs-in-united-states" class="job-location-link">#USA</a>
+                        <a href="https://jobringer.com/jobs-in-united-kingdom" class="job-location-link">#UK</a>
+                        <a href="https://jobringer.com/jobs-in-Australia" class="job-location-link">#Australia</a>
+                        <a href="https://jobringer.com/jobs-in-Canada" class="job-location-link">#Canada</a>
+                        <a href="https://jobringer.com/jobs-in-Singapore" class="job-location-link">#Singapore</a>
+                        <a href="https://jobringer.com/jobs-in-united-arab-emirates" class="job-location-link">#Dubai</a>
+                        <a href="https://jobringer.com/jobs-in-saudi-arabia" class="job-location-link">#Saudi Arabia</a>
+                        <a href="https://jobringer.com/jobs-in-new-zealand" class="job-location-link">#New Zealand</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Row -->
+            <div class="job-stats-row">
+                <div class="stat-item">
+                    <p class="stat-label">Jobs Posted</p>
+                    <h3 class="stat-value">41499</h3>
+                </div>
+                <div class="stat-item">
+                    <p class="stat-label">Jobs Filled</p>
+                    <h3 class="stat-value">15153</h3>
+                </div>
+                <div class="stat-item">
+                    <p class="stat-label">Employers</p>
+                    <h3 class="stat-value">25785</h3>
+                </div>
+                <div class="stat-item">
+                    <p class="stat-label">Active Users</p>
+                    <h3 class="stat-value">1629730</h3>
+                </div>
+            </div>
+
+            <!-- Disclaimer and Recognized By -->
+            <div class="footer-disclaimer-recognized">
+                <div class="disclaimer-text">
+                    <p><strong>Disclaimer:</strong> All Trademarks and Logos are the property of their respective
+                        owners, depicted here purely for representation purpose. Jobringer.com has taken all reasonable
+                        steps to ensure that information on this site is genuine. Job Applicants are advised to evaluate
+                        independently. Jobringer.com shall not have any responsibility in this regard. All Jobseeker
+                        services are strictly designed & meant only for job search assistance and to maximize the
+                        chances for the jobseekers to get their dream job. All Job Seeker Credentials and Employment
+                        Opportunities are subject to individual merit & evaluation. We do not guarantee any job to any
+                        jobseeker.</p>
+                </div>
+                <div class="recognized-block">
+                    <span class="recognized-label">Recognized By</span>
+                    <img src="https://www.jobringer.com/images/startuplogo.png" alt="Startup India">
+                </div>
+            </div>
+
+            <!-- Social Icons -->
+            <div class="footer-social-links">
+                <span>Follow us on</span>
+                <div class="social-icons">
+                    <a href="https://whatsapp.com/channel/0029VaL3vjg0LKZJrpFc440L" class="social-icon"><i
+                            class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/pages/category/Business-Service/Jobringer-111164147355159/"
+                        class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/jobs_jobringer" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/jobringer_job_portal" class="social-icon"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://in.linkedin.com/company/jobringer" class="social-icon"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.youtube.com/channel/UCE2yLiRuBlfAEVVVEidbzdg" class="social-icon"><i
+                            class="fab fa-youtube"></i></a>
+                    <a href="https://telegram.me/jobs_jobringer" class="social-icon"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+
+            <!-- Footer Navigation Links -->
+            <div class="footer-nav-links">
+                <a href="https://www.jobringer.com/terms&condition">Terms and conditions</a><span
+                    class="separator">|</span>
+                <a href="https://www.jobringer.com/privacy-policy">Privacy Policy</a><span class="separator">|</span>
+                <a href="https://www.jobringer.com/refund-policy">Refund / Cancellation Policy</a><span
+                    class="separator">|</span>
+                <a href="https://www.jobringer.com/about-us">About Us</a><span class="separator">|</span>
+                <a href="https://www.jobringer.com/contact-us">Contact Us</a><span class="separator">|</span>
+                <a href="https://www.jobringer.com/faq">FAQ</a><span class="separator">|</span>
+                <a href="https://www.jobringer.com/blogs">Blogs</a>
+            </div>
+
+            <!-- Copyright -->
+            <p class="copyright">© All Rights Reserved @ 2025 Jobtech Ventures Private Limited.</p>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float -->
+    <a href="https://api.whatsapp.com/send?phone=9987472639&text=Hi" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        // Initialize Swiper
+        const swiper = new Swiper('.job-swiper', {
+            // Optional parameters
+            loop: true,
+            slidesPerView: 1,
+            spaceBetween: 20,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            // Responsive breakpoints
+            breakpoints: {
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                // when window width is >= 768px
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                // when window width is >= 1024px
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+                // when window width is >= 1200px
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 30
+                }
+            },
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            // Pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+
+        function toggleMobileMenu() {
+            const nav = document.getElementById('nav-menu');
+            nav.classList.toggle('active');
+        }
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function (event) {
+            const nav = document.getElementById('nav-menu');
+            const toggle = document.querySelector('.mobile-menu-toggle');
+
+            if (!nav.contains(event.target) && !toggle.contains(event.target)) {
+                nav.classList.remove('active');
+            }
+        });
+
+        // Close mobile menu when window is resized to desktop
+        window.addEventListener('resize', function () {
+            if (window.innerWidth > 768) {
+                document.getElementById('nav-menu').classList.remove('active');
+            }
+        });
+    </script>
+</body>
+
+</html>
